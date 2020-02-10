@@ -73,8 +73,36 @@
 
             <TabItem Header="Tab5">
                 <ListBox>
-                    
+                    <ListBoxItem>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+
+                            <Image Source="https://img.fonwall.ru/o/26/plyaj_nebo_obloka_voda_bereg.jpg" 
+                                   Width="100" Height="100"
+                                   Grid.Column="0"/>
+                            <Label Grid.Column="1"/>
+                        </Grid>
+                    </ListBoxItem>
+                    <ListBoxItem>002</ListBoxItem>
+                    <ListBoxItem>003</ListBoxItem>
+                    <ListBoxItem>004</ListBoxItem>
+                    <ListBoxItem>005</ListBoxItem>
                 </ListBox>
+            </TabItem>
+
+            <TabItem Header="Tab6">
+                <StackPanel>
+                <ComboBox>
+                    <ComboBoxItem>001</ComboBoxItem>
+                    <ComboBoxItem>002</ComboBoxItem>
+                    <ComboBoxItem>003</ComboBoxItem>
+                    <ComboBoxItem>004</ComboBoxItem>
+                    <ComboBoxItem>005</ComboBoxItem>
+                </ComboBox>
+                </StackPanel>
             </TabItem>
             
         </TabControl>
