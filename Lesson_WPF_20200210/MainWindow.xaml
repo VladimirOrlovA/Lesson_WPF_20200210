@@ -57,6 +57,25 @@
                     </Expander>
                 </StackPanel>
             </TabItem>
+
+            <TabItem Header="Tab4">
+                <StackPanel>
+                    <TextBox TextWrapping="WrapWithOverflow"
+                             MinLines="2"
+                             ScrollViewer.CanContentScroll="True"
+                             ScrollViewer.HorizontalScrollBarVisibility="Auto"
+                             Text="wwwwwwwwwwwwwwwwwwww">
+                    </TextBox>
+
+                    <PasswordBox x:Name="pbPassword" Password="1234567"/>
+                </StackPanel>
+            </TabItem>
+
+            <TabItem Header="Tab5">
+                <ListBox>
+                    
+                </ListBox>
+            </TabItem>
             
         </TabControl>
     </Grid>
